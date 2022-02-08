@@ -10,21 +10,6 @@ body{
 
 html {
     scroll-behavior: smooth;
-  }
-
-.bg-red {
-    background-color: red;
-    height: 100vh;
-}
-
-.bg-green {
-    background-color: green;
-    height: 100vh;
-}
-
-.bg-yellow {
-    background-color: yellow;
-    height: 100vh;
 }
 
 .menu{
@@ -33,6 +18,7 @@ html {
     left: 83%;
     right: 0;
     bottom: 0;
+    z-index: 1;
 }
 
 a:hover{
@@ -61,6 +47,23 @@ ul li a {
     margin-left: 30px;
 }
 
+.full{
+    height: 100vh;
+    position: relative;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
 .center-align {
   top: 50%;
   bottom: 50%;
@@ -86,6 +89,12 @@ ul li a {
   }
 
 .scarpa1 {
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 4rem;
+}
+
+.scarpa2 {
     text-transform: uppercase;
     color: yellow;
     font-size: 4rem;
