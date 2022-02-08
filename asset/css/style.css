@@ -4,6 +4,89 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, sans-serif;
+}
+
 html {
     scroll-behavior: smooth;
   }
+
+.bg-red {
+    background-color: red;
+    height: 100vh;
+}
+
+.bg-green {
+    background-color: green;
+    height: 100vh;
+}
+
+.bg-yellow {
+    background-color: yellow;
+    height: 100vh;
+}
+
+.menu{
+    position: fixed;
+    top: 60px;
+    left: 83%;
+    right: 0;
+    bottom: 0;
+}
+
+a:hover{
+    box-shadow: 2px 2px 2px 2px;
+    color: black;
+}
+
+.menu ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 2rem;
+    color: black;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.center-align {
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -60%);
+  position: absolute;
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+}
+
+.bottom-align {
+    top: 70%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+  }
+
+.scarpa1 {
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 4rem;
+}
